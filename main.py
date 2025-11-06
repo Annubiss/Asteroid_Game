@@ -1,7 +1,7 @@
 import pygame
 from constants import *
 from logger import log_state 
-pygame.get_init()  # Initialize pygame to avoid errors when accessing pygame types
+pygame.init()  # Initialize pygame to avoid errors when accessing pygame types
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
 def main():
